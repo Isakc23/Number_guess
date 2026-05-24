@@ -100,13 +100,15 @@ INSERT INTO public.users VALUES (8, 'user_1779594619917', 2, 603);
 INSERT INTO public.users VALUES (7, 'user_1779594619918', 5, 281);
 INSERT INTO public.users VALUES (10, 'user_1779594632762', 2, 570);
 INSERT INTO public.users VALUES (9, 'user_1779594632763', 5, 3);
+INSERT INTO public.users VALUES (12, 'user_1779594670443', 2, 102);
+INSERT INTO public.users VALUES (11, 'user_1779594670444', 5, 229);
 
 
 --
 -- Name: users_user_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.users_user_id_seq', 10, true);
+SELECT pg_catalog.setval('public.users_user_id_seq', 12, true);
 
 
 --
